@@ -1,0 +1,80 @@
+body{
+    background: #2f3236;
+}
+.clik{
+    background-color: rgba(0,0,0,0.2);
+    font-size: 10vw;
+    font-size: 4.8vh;
+    width: 50%;
+    text-align: center;
+    border: #939191 solid 1px;
+    color: slategray;
+}
+.clik:hover{
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(245, 245, 245, 0.03);
+}
+.onm{
+   display: flex;
+}
+.math{
+    background-color: rgba(196, 12, 12, 0.2);
+    font-size: 10vw;
+    font-size: 4.5vh;
+    width: 50%;
+    text-align: center;
+    border: #939191 solid 1px;
+    color: slategray;
+}
+.clik.math:hover{
+    cursor: pointer;
+    user-select: none;
+    background-color: rgba(196, 12, 12, 0.37);!important;
+    box-shadow: 5px 0px 5px 0px rgba(196,12,12,0.4);!important;
+}
+.content{
+    box-shadow: 6px 5px 6px 5px rgba(0,0,0,0.4);
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+.disp{
+    background-color: rgba(0,0,0,0.2);
+    font-size: 10vw;
+    font-size: 5vh;
+    width: 99.6%;
+    text-align: center;
+    border: #939191 solid 1px;
+    color: slategray;
+    border-radius: 10px 10px 0px 0px;
+    max-height: 100px;
+    min-height: 100px;
+    display: flex;
+    flex-flow: column;
+}
+.ravno{
+    background-color: rgba(255, 165, 0, 0.37);
+    border-radius: 0px 0px 0px 10px;
+}
+.ravno:hover{
+    background-color: rgba(255, 165, 0, 0.8);
+    box-shadow: -5px 5px 5px 0px rgba(255,165,80,0.4);!important;
+}
+.stepin{
+    background-color: rgba(255, 165, 0, 0.37);
+}
+.stepin:hover{
+    background-color: rgba(255, 165, 0, 0.8);
+    box-shadow: 0px 5px 5px 0px rgba(255,165,80,0.4);!important;
+}
+.dil{
+    border-radius: 0px 0px 10px 0px;
+}
+.clik.math.dil:hover{
+    box-shadow: 5px 5px 5px 0px rgba(196,12,12,0.4);!important;
+
+}
